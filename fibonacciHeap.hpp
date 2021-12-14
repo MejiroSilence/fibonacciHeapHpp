@@ -97,7 +97,8 @@ namespace mejiroS
                     break;
                 p = p->right;
             }
-            putchar('\n');
+            if(print)
+                putchar('\n');
             return i;
         }
 
